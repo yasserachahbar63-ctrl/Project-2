@@ -1,0 +1,100 @@
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+/* Navigatie in het midden */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border: 2px solid #333;
+    padding: 8px 18px;
+    background: #fff;
+    border-radius: 6px;
+}
+
+/* Kaarten & Blokken (Intro & Collectie) */
+.intro-sectie,
+.cv-sectie {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.intro-sectie {
+    background: #fff;
+    padding: 25px;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+.intro-sectie h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.intro-sectie p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Schoenen Grid */
+.kolommen-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.kolom {
+    background: #fff;
+    border: 2px solid #333;
+    padding: 12px 20px;
+    border-radius: 6px;
+    min-width: 130px;
+    text-align: center;
+}
+
+.kolom h3 {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #777;
+    margin-bottom: 4px;
+}
+
+.kolom p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 15px;
+}
